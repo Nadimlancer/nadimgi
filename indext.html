@@ -1,23 +1,220 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+      body {
+        max-height: 4000px;
+      }
+    </style>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="app.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+    <!-- <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4">
+          <label for="validationCustom01" class="form-label">First name</label>
+          <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom02" class="form-label">Last name</label>
+          <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustomUsername" class="form-label">Username</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend">@</span>
+            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+            <div class="invalid-feedback">
+              Please choose a username.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom03" class="form-label">City</label>
+          <input type="text" class="form-control" id="validationCustom03" required>
+          <div class="invalid-feedback">
+            Please provide a valid city.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom04" class="form-label">State</label>
+          <select class="form-select" id="validationCustom04" required>
+            <option selected disabled value="">Choose...</option>
+            <option>...</option>
+          </select>
+          <div class="invalid-feedback">
+            Please select a valid state.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom05" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="validationCustom05" required>
+          <div class="invalid-feedback">
+            Please provide a valid zip.
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              Agree to terms and conditions
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+
+        <div class="mb-3">
+            <label for="formFileDisabled" class="form-label">Disabled file input example</label>
+            <input class="form-control" type="file" id="formFileDisabled" disabled>
+          </div>
+          <label for="exampleColorInput" class="form-label">Color picker</label>
+<input type="color" class="form-control form-control-color" id="exampleColorInput" value="#563d7c" title="Choose your color">
+
+<label for="customRange3" class="form-label">Example range</label>
+<input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3">
+
+      </form>
+     -->
+
+
+     <div class="container p-5 my-5 border">
+      <h1>My First Bootstrap Page</h1>
+      <p>This container has a border and some extra padding and margins.</p>
+    </div>
     
-    <h1>Nadim mahmud is a fast learner</h1>
+    <div class="container p-5 my-5 bg-dark text-white">
+      <h1>My First Bootstrap Page</h1>
+      <p>This container has a dark background color and a white text, and some extra padding and margins.</p>
+    </div>
 
-    <h2>he was very passionate by code </h2>
+    
+    <div class="container p-5 my-5 bg-primary text-white">
+      <h1>My First Bootstrap Page</h1>
+      <p>This container has a blue background color and a white text, and some extra padding and margins.</p>
+    </div>
 
-    <h3>Because every problem has a coding solution!</h3>
+    <div class="container p-5 my-5 bg-warning text-white">
+      <h1>My First Bootstrap Page</h1>
+      <p>This container has a orange background color and a white text, and some extra padding and margins.</p>
+    </div>
 
-    <h4>Beyond the what i can see!</h4>
+    <div class="container p-5 my-5 bg-danger text-white">
+      <h1>My First Bootstrap Page</h1>
+      <p>This cintainer has a red background color and a white text, and some extra padding and margins.</p>
+    </div>
 
-    <h3>I dont like you you look dummy!</h3>
-    <h4>Can you help me to get marcedez!</h4>
+    <table class="table table-hover table-bordered">
+      <thead>
+        <tr>
+          <th>Name </th>
+          <th>Email</th>
+          <th>Occupation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="table-success">
+          <td>Nadim Mahmud</td>
+          <td>nadimlancer0@gmail.com</td>
+          <td>student</td>
+        </tr>
+        <tr class="table-info">
+          <td>sona mia</td>
+          <td>sona@gmail.com</td>
+          <td>kamla</td>
+        </tr>
+        <tr class="table-warning">
+          <td>honulu</td>
+          <td>hunu@gmail.com</td>
+          <td>farmar</td>
+        </tr>
+        <tr class="table-danger">
+          <td>ghatamala</td>
+          <td>guala@gmail.com</td>
+          <td>Auto</td>
+        </tr>
+        <tr class="table-primary">
+          <td>maganta</td>
+          <td>maganta@gmail.com</td>
+          <td>bekar</td>
+        </tr>
+        <tr class="table-dark">
+          <td>aduvai</td>
+          <td>adu@gmail.com</td>
+          <td>tutorer</td>
+        </tr>
+      </tbody>
+    </table>
 
 
-</body>
+    <div class="container-fluid p-5 bg-primary text-white text-center">
+      <h1>Here another in practice</h1>
+    <p>Resize this responsive page to see the effect!</p>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm-4">
+          <h3>Column 1</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, qui?</p>
+  
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, excepturi.</p>
+        </div>
+  
+            <div class="col-sm-4">
+                  <h2>Column2</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, sed!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, earum.</p>
+            </div>
+            <div class="col-sm-4">
+              <h3>Column 3</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, doloribus?</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, ea.</p>
+            </div>
+          </div>
+        </div>
+ 
+
+        <div class="alert alert-warning!"><strong>Warning!</strong>Artificial Intelligance is one of the greatest revulation for every time!</div>
+   
+        <div class="alert alert-danger"><strong>Danger!  </strong>You dont know english and dont know how to use ai</div>
+
+        <div class="alert alert-success"><strong>Success!</strong>The future is only for intelligance people who colaborate with ai<br>
+        and also being skill!</div>
+        <div class="alert alert-info"><strong>Informational!</strong>I decided to move china for bachelors in artificial intelligance in china.<br>
+        also become skilled in coding!</div>
+        <div class="alert alert-dark"><strong>Active!</strong>Stay active and motivated for parmanent! its a universial flowing!</div>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="java.js"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
 </html>
